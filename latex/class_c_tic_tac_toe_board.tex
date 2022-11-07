@@ -1,0 +1,200 @@
+\hypertarget{class_c_tic_tac_toe_board}{}\doxysection{C\+Tic\+Tac\+Toe\+Board Class Reference}
+\label{class_c_tic_tac_toe_board}\index{CTicTacToeBoard@{CTicTacToeBoard}}
+
+
+{\ttfamily \#include $<$C\+Tic\+Tac\+Toe\+Board.\+h$>$}
+
+Inheritance diagram for C\+Tic\+Tac\+Toe\+Board\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_tic_tac_toe_board}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_tic_tac_toe_board_a6bf7a4260465ed670a7c88fd9cb2d533}{C\+Tic\+Tac\+Toe\+Board}} ()
+\item 
+\mbox{\hyperlink{class_c_tic_tac_toe_board_af048ffb94995bf77082339cde5a25948}{$\sim$\+C\+Tic\+Tac\+Toe\+Board}} ()
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_a3da5fa184543239d54ae5f77682b0234}{count\+Row}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_a6dbc73d522f2a75c448a2f037bea0ff0}{count\+Column}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_aff2eaaf7964f69078253442cb8de07c9}{count\+Diagonal\+Left\+Down}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_a3c8d2c54ae654d34eda63a9a17fe89f5}{count\+Diagonal\+Left\+Up}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_ae4caece2bfb82f216c65d1eb6f4f9fde}{boardempty}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_a5b839bb8b7e2a45fc3d5455a22364f0f}{m\+\_\+\+Row}} = 0
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_ac55bf4d61469150a7ac8bbd77a7a436a}{m\+\_\+\+Col}} = 0
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_a36912419c7847d0f7a2757663f453745}{m\+\_\+\+Diag\+Lef\+Dwn}} = 0
+\item 
+unsigned short \mbox{\hyperlink{class_c_tic_tac_toe_board_aeec627c52f9db12060b8cb7e126231b0}{m\+\_\+\+Diag\+Lef\+Up}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Creates a specific game board by inheritance of a generic game board. This class enables player to put a new stone on board. It provide number of player or opponent player stone in each row, columns and diagonals. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_a6bf7a4260465ed670a7c88fd9cb2d533}\label{class_c_tic_tac_toe_board_a6bf7a4260465ed670a7c88fd9cb2d533}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!CTicTacToeBoard@{CTicTacToeBoard}}
+\index{CTicTacToeBoard@{CTicTacToeBoard}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{CTicTacToeBoard()}{CTicTacToeBoard()}}
+{\footnotesize\ttfamily C\+Tic\+Tac\+Toe\+Board\+::\+C\+Tic\+Tac\+Toe\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of Tic\+Tac\+Toe Board which initialize generic board. \mbox{\Hypertarget{class_c_tic_tac_toe_board_af048ffb94995bf77082339cde5a25948}\label{class_c_tic_tac_toe_board_af048ffb94995bf77082339cde5a25948}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!````~CTicTacToeBoard@{$\sim$CTicTacToeBoard}}
+\index{````~CTicTacToeBoard@{$\sim$CTicTacToeBoard}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{$\sim$CTicTacToeBoard()}{~CTicTacToeBoard()}}
+{\footnotesize\ttfamily C\+Tic\+Tac\+Toe\+Board\+::$\sim$\+C\+Tic\+Tac\+Toe\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor of Tic\+Tac\+Toe Board. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_ae4caece2bfb82f216c65d1eb6f4f9fde}\label{class_c_tic_tac_toe_board_ae4caece2bfb82f216c65d1eb6f4f9fde}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!boardempty@{boardempty}}
+\index{boardempty@{boardempty}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{boardempty()}{boardempty()}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::boardempty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+check if board is empty or not, it can also return number of empty fields in return statement. 
+
+Implements \mbox{\hyperlink{class_c_board_a9d7aa3ce730006b9a8cdffa82fc80edf}{C\+Board}}.
+
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_a6dbc73d522f2a75c448a2f037bea0ff0}\label{class_c_tic_tac_toe_board_a6dbc73d522f2a75c448a2f037bea0ff0}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!countColumn@{countColumn}}
+\index{countColumn@{countColumn}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{countColumn()}{countColumn()}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::count\+Column (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Returns number of player or opponent stone in each column. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_c_board_a0965b7de26867da1fffacb3aaaf233e8}{C\+Board}}.
+
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_aff2eaaf7964f69078253442cb8de07c9}\label{class_c_tic_tac_toe_board_aff2eaaf7964f69078253442cb8de07c9}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!countDiagonalLeftDown@{countDiagonalLeftDown}}
+\index{countDiagonalLeftDown@{countDiagonalLeftDown}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{countDiagonalLeftDown()}{countDiagonalLeftDown()}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::count\+Diagonal\+Left\+Down (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Returns number of player or opponent stone in left down diagonal. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_c_board_afed6c9a73ecd2fcb24da3969c2e6dab5}{C\+Board}}.
+
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_a3c8d2c54ae654d34eda63a9a17fe89f5}\label{class_c_tic_tac_toe_board_a3c8d2c54ae654d34eda63a9a17fe89f5}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!countDiagonalLeftUp@{countDiagonalLeftUp}}
+\index{countDiagonalLeftUp@{countDiagonalLeftUp}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{countDiagonalLeftUp()}{countDiagonalLeftUp()}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::count\+Diagonal\+Left\+Up (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Returns number of player or opponent stone in left up diagonal. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_c_board_a9aacc1d76cf16db5b7d4012960f33e17}{C\+Board}}.
+
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_a3da5fa184543239d54ae5f77682b0234}\label{class_c_tic_tac_toe_board_a3da5fa184543239d54ae5f77682b0234}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!countRow@{countRow}}
+\index{countRow@{countRow}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{countRow()}{countRow()}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::count\+Row (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Returns number of player or opponent stone in each row. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_c_board_af335caacf3f7d037add0a685438d6d5a}{C\+Board}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_ac55bf4d61469150a7ac8bbd77a7a436a}\label{class_c_tic_tac_toe_board_ac55bf4d61469150a7ac8bbd77a7a436a}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!m\_Col@{m\_Col}}
+\index{m\_Col@{m\_Col}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{m\_Col}{m\_Col}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::m\+\_\+\+Col = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Col} & define the column number. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_a36912419c7847d0f7a2757663f453745}\label{class_c_tic_tac_toe_board_a36912419c7847d0f7a2757663f453745}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!m\_DiagLefDwn@{m\_DiagLefDwn}}
+\index{m\_DiagLefDwn@{m\_DiagLefDwn}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{m\_DiagLefDwn}{m\_DiagLefDwn}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::m\+\_\+\+Diag\+Lef\+Dwn = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Diag\+Lef\+Dwn} & define the left down diagonal. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_aeec627c52f9db12060b8cb7e126231b0}\label{class_c_tic_tac_toe_board_aeec627c52f9db12060b8cb7e126231b0}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!m\_DiagLefUp@{m\_DiagLefUp}}
+\index{m\_DiagLefUp@{m\_DiagLefUp}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{m\_DiagLefUp}{m\_DiagLefUp}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::m\+\_\+\+Diag\+Lef\+Up = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Diag\+Lef\+Up} & define the left up diagonal. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_tic_tac_toe_board_a5b839bb8b7e2a45fc3d5455a22364f0f}\label{class_c_tic_tac_toe_board_a5b839bb8b7e2a45fc3d5455a22364f0f}} 
+\index{CTicTacToeBoard@{CTicTacToeBoard}!m\_Row@{m\_Row}}
+\index{m\_Row@{m\_Row}!CTicTacToeBoard@{CTicTacToeBoard}}
+\doxysubsubsection{\texorpdfstring{m\_Row}{m\_Row}}
+{\footnotesize\ttfamily unsigned short C\+Tic\+Tac\+Toe\+Board\+::m\+\_\+\+Row = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Row} & define the row number. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_c_tic_tac_toe_board_8h}{C\+Tic\+Tac\+Toe\+Board.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_c_tic_tac_toe_board_8cpp}{C\+Tic\+Tac\+Toe\+Board.\+cpp}}\end{DoxyCompactItemize}

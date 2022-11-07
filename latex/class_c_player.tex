@@ -1,0 +1,127 @@
+\hypertarget{class_c_player}{}\doxysection{C\+Player Class Reference}
+\label{class_c_player}\index{CPlayer@{CPlayer}}
+
+
+{\ttfamily \#include $<$C\+Player.\+h$>$}
+
+Inheritance diagram for C\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_player}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_player_a931a59adf2ada5376122e30b33ae2c4c}{C\+Player}} ()
+\item 
+virtual \mbox{\hyperlink{class_c_player_ad02df04887bccfe3b82298895da24af6}{$\sim$\+C\+Player}} ()
+\item 
+virtual bool \mbox{\hyperlink{class_c_player_ab6d9a3394d2ad73849d616e40d9f54d4}{place\+Stone}} (unsigned short stone)=0
+\item 
+void \mbox{\hyperlink{class_c_player_a722ff4813814188605116b894b113a73}{add\+Board}} (\mbox{\hyperlink{class_c_board}{C\+Board}} $\ast$element)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_board}{C\+Board}} $\ast$ \mbox{\hyperlink{class_c_player_aad3df9f0296d1c60aff5a1f10d90428f}{m\+\_\+p\+Board}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_c_player_a1bd26a86dbf6c51d93d54ded12b92043}{C\+Computer}}
+\item 
+class \mbox{\hyperlink{class_c_player_ad554fb39fc455a0204df04ad90b7e255}{C\+Human}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic Player which receives inheritance from computer or human players. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_player_a931a59adf2ada5376122e30b33ae2c4c}\label{class_c_player_a931a59adf2ada5376122e30b33ae2c4c}} 
+\index{CPlayer@{CPlayer}!CPlayer@{CPlayer}}
+\index{CPlayer@{CPlayer}!CPlayer@{CPlayer}}
+\doxysubsubsection{\texorpdfstring{CPlayer()}{CPlayer()}}
+{\footnotesize\ttfamily C\+Player\+::\+C\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of \mbox{\hyperlink{class_c_player}{C\+Player}} class. \mbox{\Hypertarget{class_c_player_ad02df04887bccfe3b82298895da24af6}\label{class_c_player_ad02df04887bccfe3b82298895da24af6}} 
+\index{CPlayer@{CPlayer}!````~CPlayer@{$\sim$CPlayer}}
+\index{````~CPlayer@{$\sim$CPlayer}!CPlayer@{CPlayer}}
+\doxysubsubsection{\texorpdfstring{$\sim$CPlayer()}{~CPlayer()}}
+{\footnotesize\ttfamily C\+Player\+::$\sim$\+C\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructor of \mbox{\hyperlink{class_c_player}{C\+Player}}. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_player_a722ff4813814188605116b894b113a73}\label{class_c_player_a722ff4813814188605116b894b113a73}} 
+\index{CPlayer@{CPlayer}!addBoard@{addBoard}}
+\index{addBoard@{addBoard}!CPlayer@{CPlayer}}
+\doxysubsubsection{\texorpdfstring{addBoard()}{addBoard()}}
+{\footnotesize\ttfamily void C\+Player\+::add\+Board (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_board}{C\+Board}} $\ast$}]{element }\end{DoxyParamCaption})}
+
+to access generic board through the address of special board type. 
+\begin{DoxyParams}{Parameters}
+{\em element} & pointer points to special board address. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_player_ab6d9a3394d2ad73849d616e40d9f54d4}\label{class_c_player_ab6d9a3394d2ad73849d616e40d9f54d4}} 
+\index{CPlayer@{CPlayer}!placeStone@{placeStone}}
+\index{placeStone@{placeStone}!CPlayer@{CPlayer}}
+\doxysubsubsection{\texorpdfstring{placeStone()}{placeStone()}}
+{\footnotesize\ttfamily virtual bool C\+Player\+::place\+Stone (\begin{DoxyParamCaption}\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual method\+: to place a stone on board in each round. 
+\begin{DoxyParams}{Parameters}
+{\em stone} & index of player. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_c_computer_a96cb4d52c22a59576d4ab5f65ae1eabe}{C\+Computer}}, and \mbox{\hyperlink{class_c_human_a8211dbd75823de2f148dcc605800b249}{C\+Human}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_c_player_a1bd26a86dbf6c51d93d54ded12b92043}\label{class_c_player_a1bd26a86dbf6c51d93d54ded12b92043}} 
+\index{CPlayer@{CPlayer}!CComputer@{CComputer}}
+\index{CComputer@{CComputer}!CPlayer@{CPlayer}}
+\doxysubsubsection{\texorpdfstring{CComputer}{CComputer}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_c_computer}{C\+Computer}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_c_computer}{C\+Computer}}} & friend class to access methods and attributes of this class. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_player_ad554fb39fc455a0204df04ad90b7e255}\label{class_c_player_ad554fb39fc455a0204df04ad90b7e255}} 
+\index{CPlayer@{CPlayer}!CHuman@{CHuman}}
+\index{CHuman@{CHuman}!CPlayer@{CPlayer}}
+\doxysubsubsection{\texorpdfstring{CHuman}{CHuman}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_c_human}{C\+Human}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_c_human}{C\+Human}}} & friend class to access methods and attributes of this class. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_player_aad3df9f0296d1c60aff5a1f10d90428f}\label{class_c_player_aad3df9f0296d1c60aff5a1f10d90428f}} 
+\index{CPlayer@{CPlayer}!m\_pBoard@{m\_pBoard}}
+\index{m\_pBoard@{m\_pBoard}!CPlayer@{CPlayer}}
+\doxysubsubsection{\texorpdfstring{m\_pBoard}{m\_pBoard}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_board}{C\+Board}}$\ast$ C\+Player\+::m\+\_\+p\+Board\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+p\+Board} & pointer to generic board. Aggregation relationship! \mbox{\hyperlink{}{aggregation}}\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_c_player_8h}{C\+Player.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_c_player_8cpp}{C\+Player.\+cpp}}\end{DoxyCompactItemize}

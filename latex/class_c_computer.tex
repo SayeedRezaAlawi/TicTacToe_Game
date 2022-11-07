@@ -1,0 +1,139 @@
+\hypertarget{class_c_computer}{}\doxysection{C\+Computer Class Reference}
+\label{class_c_computer}\index{CComputer@{CComputer}}
+
+
+{\ttfamily \#include $<$C\+Computer.\+h$>$}
+
+Inheritance diagram for C\+Computer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_computer}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_c_computer_1_1_move}{Move}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_computer_a91ba9f27e09b57c19edcb38ec55eb403}{C\+Computer}} ()
+\item 
+bool \mbox{\hyperlink{class_c_computer_a96cb4d52c22a59576d4ab5f65ae1eabe}{place\+Stone}} (unsigned short stone)
+\item 
+bool \mbox{\hyperlink{class_c_computer_af22e35ca613dff5f034416893d635f93}{defence}} (unsigned short stone)
+\item 
+bool \mbox{\hyperlink{class_c_computer_a2f79bc87f1be537269e0707c4a76c6c5}{best\+Position}} (unsigned short stone)
+\item 
+bool \mbox{\hyperlink{class_c_computer_ad9f3cbe7c6a8dbff09b0758cf2046d95}{normal\+Position}} (unsigned short stone)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_c_computer_1_1_move}{Move}} \mbox{\hyperlink{class_c_computer_ab36cd7d4a7fe75204fe30313332d72e2}{bestposition}}
+\item 
+unsigned short \mbox{\hyperlink{class_c_computer_a0f7f2b51b963736c78e10c719056e24c}{m\+\_\+player}} = 0
+\item 
+unsigned short \mbox{\hyperlink{class_c_computer_aa7ffba5984c9500c40260a4b02c1e3a1}{m\+\_\+opponent}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Computer Player which plays based on finding best position or defence position on the board. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_computer_a91ba9f27e09b57c19edcb38ec55eb403}\label{class_c_computer_a91ba9f27e09b57c19edcb38ec55eb403}} 
+\index{CComputer@{CComputer}!CComputer@{CComputer}}
+\index{CComputer@{CComputer}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{CComputer()}{CComputer()}}
+{\footnotesize\ttfamily C\+Computer\+::\+C\+Computer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of computer player. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_computer_a2f79bc87f1be537269e0707c4a76c6c5}\label{class_c_computer_a2f79bc87f1be537269e0707c4a76c6c5}} 
+\index{CComputer@{CComputer}!bestPosition@{bestPosition}}
+\index{bestPosition@{bestPosition}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{bestPosition()}{bestPosition()}}
+{\footnotesize\ttfamily bool C\+Computer\+::best\+Position (\begin{DoxyParamCaption}\item[{unsigned short}]{stone }\end{DoxyParamCaption})}
+
+find best position to win the game. 
+\begin{DoxyParams}{Parameters}
+{\em stone} & index of player. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_computer_af22e35ca613dff5f034416893d635f93}\label{class_c_computer_af22e35ca613dff5f034416893d635f93}} 
+\index{CComputer@{CComputer}!defence@{defence}}
+\index{defence@{defence}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{defence()}{defence()}}
+{\footnotesize\ttfamily bool C\+Computer\+::defence (\begin{DoxyParamCaption}\item[{unsigned short}]{stone }\end{DoxyParamCaption})}
+
+find best position to defence against opponent. 
+\begin{DoxyParams}{Parameters}
+{\em stone} & index of player. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_computer_ad9f3cbe7c6a8dbff09b0758cf2046d95}\label{class_c_computer_ad9f3cbe7c6a8dbff09b0758cf2046d95}} 
+\index{CComputer@{CComputer}!normalPosition@{normalPosition}}
+\index{normalPosition@{normalPosition}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{normalPosition()}{normalPosition()}}
+{\footnotesize\ttfamily bool C\+Computer\+::normal\+Position (\begin{DoxyParamCaption}\item[{unsigned short}]{stone }\end{DoxyParamCaption})}
+
+find arbitrary position to continue the game. 
+\begin{DoxyParams}{Parameters}
+{\em stone} & index of player. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_computer_a96cb4d52c22a59576d4ab5f65ae1eabe}\label{class_c_computer_a96cb4d52c22a59576d4ab5f65ae1eabe}} 
+\index{CComputer@{CComputer}!placeStone@{placeStone}}
+\index{placeStone@{placeStone}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{placeStone()}{placeStone()}}
+{\footnotesize\ttfamily bool C\+Computer\+::place\+Stone (\begin{DoxyParamCaption}\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Method to place a stone on board in each round. 
+\begin{DoxyParams}{Parameters}
+{\em stone} & index of player. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_c_player_ab6d9a3394d2ad73849d616e40d9f54d4}{C\+Player}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_computer_ab36cd7d4a7fe75204fe30313332d72e2}\label{class_c_computer_ab36cd7d4a7fe75204fe30313332d72e2}} 
+\index{CComputer@{CComputer}!bestposition@{bestposition}}
+\index{bestposition@{bestposition}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{bestposition}{bestposition}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_c_computer_1_1_move}{Move}} C\+Computer\+::bestposition\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_c_computer_aa7ffba5984c9500c40260a4b02c1e3a1}\label{class_c_computer_aa7ffba5984c9500c40260a4b02c1e3a1}} 
+\index{CComputer@{CComputer}!m\_opponent@{m\_opponent}}
+\index{m\_opponent@{m\_opponent}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{m\_opponent}{m\_opponent}}
+{\footnotesize\ttfamily unsigned short C\+Computer\+::m\+\_\+opponent = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+opponent} & defines type of opponent stone in each round. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_computer_a0f7f2b51b963736c78e10c719056e24c}\label{class_c_computer_a0f7f2b51b963736c78e10c719056e24c}} 
+\index{CComputer@{CComputer}!m\_player@{m\_player}}
+\index{m\_player@{m\_player}!CComputer@{CComputer}}
+\doxysubsubsection{\texorpdfstring{m\_player}{m\_player}}
+{\footnotesize\ttfamily unsigned short C\+Computer\+::m\+\_\+player = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+player} & defines type of stone in each round. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_c_computer_8h}{C\+Computer.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_c_computer_8cpp}{C\+Computer.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,104 @@
+\hypertarget{class_c_screen}{}\doxysection{C\+Screen Class Reference}
+\label{class_c_screen}\index{CScreen@{CScreen}}
+
+
+{\ttfamily \#include $<$C\+Screen.\+h$>$}
+
+Inheritance diagram for C\+Screen\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_screen}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_screen_ac2dfca02f82f6f2943ee601952bf5915}{C\+Screen}} ()
+\item 
+virtual \mbox{\hyperlink{class_c_screen_a7330032366cc5f03c66f627ccda222a6}{$\sim$\+C\+Screen}} ()
+\item 
+void \mbox{\hyperlink{class_c_screen_a3fc4674f619e93c3a5ee734daf840c59}{add\+Element}} (\mbox{\hyperlink{class_c_board}{C\+Board}} $\ast$element)
+\item 
+virtual void \mbox{\hyperlink{class_c_screen_a54a2df4afced422c74b63f6d52c400ae}{print}} ()=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_board}{C\+Board}} $\ast$ \mbox{\hyperlink{class_c_screen_a999d39fbf659be3670b181983e79b2c3}{m\+\_\+p\+Board}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_c_screen_a6c98b494ce3cad459d43e78a134f0c9e}{C\+C\+R\+T\+Screen}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic \mbox{\hyperlink{class_c_screen}{C\+Screen}} type which receives can inheritance. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_screen_ac2dfca02f82f6f2943ee601952bf5915}\label{class_c_screen_ac2dfca02f82f6f2943ee601952bf5915}} 
+\index{CScreen@{CScreen}!CScreen@{CScreen}}
+\index{CScreen@{CScreen}!CScreen@{CScreen}}
+\doxysubsubsection{\texorpdfstring{CScreen()}{CScreen()}}
+{\footnotesize\ttfamily C\+Screen\+::\+C\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of \mbox{\hyperlink{class_c_screen}{C\+Screen}} class. \mbox{\Hypertarget{class_c_screen_a7330032366cc5f03c66f627ccda222a6}\label{class_c_screen_a7330032366cc5f03c66f627ccda222a6}} 
+\index{CScreen@{CScreen}!````~CScreen@{$\sim$CScreen}}
+\index{````~CScreen@{$\sim$CScreen}!CScreen@{CScreen}}
+\doxysubsubsection{\texorpdfstring{$\sim$CScreen()}{~CScreen()}}
+{\footnotesize\ttfamily C\+Screen\+::$\sim$\+C\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Virtual destructor. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_screen_a3fc4674f619e93c3a5ee734daf840c59}\label{class_c_screen_a3fc4674f619e93c3a5ee734daf840c59}} 
+\index{CScreen@{CScreen}!addElement@{addElement}}
+\index{addElement@{addElement}!CScreen@{CScreen}}
+\doxysubsubsection{\texorpdfstring{addElement()}{addElement()}}
+{\footnotesize\ttfamily void C\+Screen\+::add\+Element (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_c_board}{C\+Board}} $\ast$}]{element }\end{DoxyParamCaption})}
+
+to access generic board through the address of special board type. 
+\begin{DoxyParams}{Parameters}
+{\em element} & pointer points to special board address. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_screen_a54a2df4afced422c74b63f6d52c400ae}\label{class_c_screen_a54a2df4afced422c74b63f6d52c400ae}} 
+\index{CScreen@{CScreen}!print@{print}}
+\index{print@{print}!CScreen@{CScreen}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily virtual void C\+Screen\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Pure virtual print method which make enables polymorphism. 
+
+Implemented in \mbox{\hyperlink{class_c_c_r_t_screen_afd5d8ae0c48358924ae601ae5db7d312}{C\+C\+R\+T\+Screen}}, and \mbox{\hyperlink{class_c_g_u_i_screen_aeb1497dca68044a5cb00ecfbf5404c8a}{C\+G\+U\+I\+Screen}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_c_screen_a6c98b494ce3cad459d43e78a134f0c9e}\label{class_c_screen_a6c98b494ce3cad459d43e78a134f0c9e}} 
+\index{CScreen@{CScreen}!CCRTScreen@{CCRTScreen}}
+\index{CCRTScreen@{CCRTScreen}!CScreen@{CScreen}}
+\doxysubsubsection{\texorpdfstring{CCRTScreen}{CCRTScreen}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_c_c_r_t_screen}{C\+C\+R\+T\+Screen}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_screen_a999d39fbf659be3670b181983e79b2c3}\label{class_c_screen_a999d39fbf659be3670b181983e79b2c3}} 
+\index{CScreen@{CScreen}!m\_pBoard@{m\_pBoard}}
+\index{m\_pBoard@{m\_pBoard}!CScreen@{CScreen}}
+\doxysubsubsection{\texorpdfstring{m\_pBoard}{m\_pBoard}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_board}{C\+Board}}$\ast$ C\+Screen\+::m\+\_\+p\+Board\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+p\+Board} & pointer to generic board. Aggregation relationship! \mbox{\hyperlink{}{aggregation}}\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_c_screen_8h}{C\+Screen.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_c_screen_8cpp}{C\+Screen.\+cpp}}\end{DoxyCompactItemize}

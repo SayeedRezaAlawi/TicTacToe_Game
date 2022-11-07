@@ -1,0 +1,246 @@
+package id1s17wk3ga2x2uk3gjhhs6;
+
+/**
+@version 2.0
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidhpuerk3ga2x2uk3gjhx6h:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid6gu5zk3ga2x2uk3gjk9xs:oiref><oihard>
+@__modelType reference 
+*/
+class reference11 {
+}
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid9y2pbk3ga2x2uk3gjpykn:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid3j11dk3ga2x2uk3gjqnvo:oiref><oihard>
+@__modelType reference 
+*/
+class reference17 {
+}
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidf4be7k3ga2x2uk3gjrhhg:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidfx1i1k3ga2x2uk3gjs2iz:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
+}
+/**
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid47a64k3ga2x2uk3gjue4q:oiref><oihard>
+@__modelType reference 
+*/
+class reference21 {
+}
+}/**
+@__tags
+@shapeType ActivityDiagram
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAABc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAW6qKFQAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQAD0RFU0tUT1AtQUlEMUZLRXQA
+CEFjdGl2aXR5dAAEUmV6YXh4 
+*/
+class __tags {
+}/**
+@__options option.papersize = A4
+option.orientation = Landscape
+option.fittopage = true 
+*/
+class __options {
+}/**
+@__positions 
+
+
+
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn.linkid2idxvk3ga2x2uk3gk4897:oiref>=510,60,38,16,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid47a64k3ga2x2uk3gjue4q.linkid697hvk3ga2x2uk3gjusvp:oiref>=430,320,317,320:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid6gu5zk3ga2x2uk3gjk9xs:oiref>=630,150,80,23,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid9y2pbk3ga2x2uk3gjpykn:oiref>=870,150,15,15,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid47a64k3ga2x2uk3gjue4q:oiref>=430,310,60,20,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidf4be7k3ga2x2uk3gjrhhg.linkidhixq3k3ga2x2uk3gjttcv:oiref>=490,160,630,160:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidfx1i1k3ga2x2uk3gjs2iz:oiref>=190,310,127,23,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn.linkidd2su8k3ga2x2uk3gjphvu:oiref>=250,150,360,150:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidhpuerk3ga2x2uk3gjhx6h.linkid3d5pqk3ga2x2uk3gjj5tz:oiref>=244,82,244,150:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidf4be7k3ga2x2uk3gjrhhg.linkiddyhosk3ga2x2uk3gjumpu:oiref>=460,230,38,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidhpuerk3ga2x2uk3gjhx6h.linkid3d5pqk3ga2x2uk3gjj5tz:oiref>=230,50,38,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn.linkidh2dqfk3ga2x2uk3gjtqih:oiref>=300,170,94,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid47a64k3ga2x2uk3gjue4q.linkidfsonvk3ga2x2uk3gjupnz:oiref>=470,370,58,16,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid3j11dk3ga2x2uk3gjqnvo.linkid6qz7ak3ga2x2uk3gjv3lz:oiref>=420,440,140,440,140,160,220,160:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn:oiref>=220,150,60,20,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidf4be7k3ga2x2uk3gjrhhg:oiref>=430,150,60,20,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidf4be7k3ga2x2uk3gjrhhg.linkiddyhosk3ga2x2uk3gjumpu:oiref>=460,170,460,310:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid6gu5zk3ga2x2uk3gjk9xs.linkidh0ctvk3ga2x2uk3gjq43n:oiref>=800,169,35,16,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn.linkidh2dqfk3ga2x2uk3gjtqih:oiref>=280,160,430,160:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid47a64k3ga2x2uk3gjue4q.linkidfsonvk3ga2x2uk3gjupnz:oiref>=468,330,468,430:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidfx1i1k3ga2x2uk3gjs2iz.linkidawf2vk3ga2x2uk3gjuzfl:oiref>=250,310,250,170:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn.linkid2idxvk3ga2x2uk3gk4897:oiref>=260,150,270,80,880,80,878,150:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid6gu5zk3ga2x2uk3gjk9xs.linkidh0ctvk3ga2x2uk3gjq43n:oiref>=710,160,870,158:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid3j11dk3ga2x2uk3gjqnvo:oiref>=420,430,82,23,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid47a64k3ga2x2uk3gjue4q.linkid697hvk3ga2x2uk3gjusvp:oiref>=350,320,38,16,1:oigroup>
+<oigroup:Composite#$transitionInplaceEditing#<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidf4be7k3ga2x2uk3gjrhhg.linkidhixq3k3ga2x2uk3gjttcv:oiref>=510,140,85,16,1:oigroup>
+<oigroup:<oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidhpuerk3ga2x2uk3gjhx6h:oiref>=238,70,12,12,1:oigroup>
+
+*/
+class __positions {
+}
+/**
+@shapeType StartState
+@__modelType node
+@name StartState2
+@backgroundColor 0,0,0 
+*/
+class nodeidhpuerk3ga2x2uk3gjhx6h {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn:oiref><oihard>
+@event [start]*/
+class linkid3d5pqk3ga2x2uk3gjj5tz {
+}
+}
+/**
+@shapeType Decision
+@__modelType node
+@name Decision1 
+*/
+class nodeid1nei6k3ga2x2uk3gji1xn {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidf4be7k3ga2x2uk3gjrhhg:oiref><oihard>
+@event [empty position]
+*/
+class linkidh2dqfk3ga2x2uk3gjtqih {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid9y2pbk3ga2x2uk3gjpykn:oiref><oihard>
+@event [else]
+@name No empty position;Draw 
+*/
+class linkid2idxvk3ga2x2uk3gk4897 {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name [win]
+*/
+class nodeid6gu5zk3ga2x2uk3gjk9xs {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid9y2pbk3ga2x2uk3gjpykn:oiref><oihard> 
+@event [end]
+*/
+class linkidh0ctvk3ga2x2uk3gjq43n {
+}
+}
+/**
+@shapeType EndState
+@__modelType node
+@name EndState1
+@backgroundColor 0,0,0 
+*/
+class nodeid9y2pbk3ga2x2uk3gjpykn {
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Defence 
+*/
+class nodeid3j11dk3ga2x2uk3gjqnvo {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn:oiref><oihard> 
+*/
+class linkid6qz7ak3ga2x2uk3gjv3lz {
+}
+}
+/**
+@shapeType Decision
+@__modelType node
+@name Decision2 
+*/
+class nodeidf4be7k3ga2x2uk3gjrhhg {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid6gu5zk3ga2x2uk3gjk9xs:oiref><oihard>
+@event [best position]
+*/
+class linkidhixq3k3ga2x2uk3gjttcv {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid47a64k3ga2x2uk3gjue4q:oiref><oihard>
+@event [else]
+*/
+class linkiddyhosk3ga2x2uk3gjumpu {
+}
+}
+/**
+@shapeType Activity
+@__modelType node
+@name Arbitrary position 
+*/
+class nodeidfx1i1k3ga2x2uk3gjs2iz {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid1nei6k3ga2x2uk3gji1xn:oiref><oihard> 
+*/
+class linkidawf2vk3ga2x2uk3gjuzfl {
+}
+}
+/**
+@shapeType Decision
+@__modelType node
+@name Decision3 
+*/
+class nodeid47a64k3ga2x2uk3gjue4q {
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeid3j11dk3ga2x2uk3gjqnvo:oiref><oihard>
+@event [defence]
+@name A position to defence. 
+*/
+class linkidfsonvk3ga2x2uk3gjupnz {
+}
+/**
+@shapeType TransitionLink
+@__modelType link
+@__ref <oiref:design#Class#id1s17wk3ga2x2uk3gjhhs6.nodeidfx1i1k3ga2x2uk3gjs2iz:oiref><oihard>
+@event [else]
+*/
+class linkid697hvk3ga2x2uk3gjusvp {
+}
+}

@@ -1,0 +1,197 @@
+package ida05b7k33btasek33c9pci;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+@__hiddenLink Autodependency<oiref:cpp#Class#CPlayer:oiref><Autodependency><oiref:cpp#Class#CComputer:oiref>
+@__hiddenLink Autodependency<oiref:cpp#Class#CPlayer:oiref><Autodependency><oiref:cpp#Class#CHuman:oiref>
+@__hiddenLink Autodependency<oiref:cpp#Class#CScreen:oiref><Autodependency><oiref:cpp#Class#CCRTScreen:oiref>
+*/
+class diagram {
+/**
+@__ref <oiref:cpp#Class#CBoard:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}
+/**
+@__ref <oiref:cpp#Class#CTicTacToeGame:oiref><oihard>
+@__modelType reference 
+*/
+class reference1 {
+}
+/**
+@__ref <oiref:cpp#Class#CScreen:oiref><oihard>
+@__modelType reference 
+*/
+class reference2 {
+}
+/**
+@__ref <oiref:cpp#Class#CPlayer:oiref><oihard>
+@__modelType reference 
+*/
+class reference3 {
+}
+/**
+@__ref <oiref:cpp#Class#CTicTacToeBoard:oiref><oihard>
+@__modelType reference 
+*/
+class reference4 {
+}
+/**
+@__ref <oiref:cpp#Class#CPosition:oiref><oihard>
+@__modelType reference 
+*/
+class reference5 {
+}
+/**
+@__ref <oiref:cpp#Class#CComputer:oiref><oihard>
+@__modelType reference 
+*/
+class reference6 {
+}
+/**
+@__ref <oiref:cpp#Class#CHuman:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}
+/**
+@__ref <oiref:cpp#Class#CGUIScreen:oiref><oihard>
+@__modelType reference 
+*/
+class reference9 {
+}
+/**
+@__ref <oiref:cpp#Class#CCRTScreen:oiref><oihard>
+@__modelType reference 
+*/
+class reference10 {
+}
+}/**
+@__tags
+@shapeType ClassDiagram 
+@changelog rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAAHc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFKAAV2
+YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAW52qLwAc3IAE2phdmEudXRp
+bC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAApzcgAlZGUubW5sLmRvY2Jv
+b2s0VEEuaW1wbC5DaGFuZ2VMb2dFbnRyeQeNjrX5qiSfAgADTAAIaG9zdG5hbWV0ABJMamF2YS9s
+YW5nL1N0cmluZztMAARuYW1lcQB+AAhMAAR1c2VycQB+AAh4cHQAD0RFU0tUT1AtQUlEMUZLRXQA
+CTxkZWZhdWx0PnQABFJlemF4c3EAfgACAAABbotCLABzcQB+AAUAAAABdwQAAAAKc3EAfgAHdAAP
+REVTS1RPUC1BSUQxRktFdAAJPGRlZmF1bHQ+dAAEUmV6YXhzcQB+AAIAAAFuvsHEAHNxAH4ABQAA
+AAF3BAAAAApzcQB+AAd0AA9ERVNLVE9QLUFJRDFGS0V0AAk8ZGVmYXVsdD50AARSZXpheHNxAH4A
+AgAAAW6GG9AAc3EAfgAFAAAAAXcEAAAACnNxAH4AB3QAD0RFU0tUT1AtQUlEMUZLRXQACTxkZWZh
+dWx0PnQABFJlemF4c3EAfgACAAABd+DI7ABzcQB+AAUAAAABdwQAAAAKc3EAfgAHdAAPREVTS1RP
+UC1JT1QzRjBGdAAJPGRlZmF1bHQ+dAAEcmV6YXhzcQB+AAIAAAFue88YAHNxAH4ABQAAAAF3BAAA
+AApzcQB+AAd0AA9ERVNLVE9QLUFJRDFGS0V0AAk8ZGVmYXVsdD50AARSZXpheHNxAH4AAgAAAW6q
+KFQAc3EAfgAFAAAAAXcEAAAACnNxAH4AB3QAD0RFU0tUT1AtQUlEMUZLRXQACTxkZWZhdWx0PnQA
+BFJlemF4eA==
+@elementChangelogs rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAAKdAAiPG9pcmVmOmNwcCNDbGFzcyNDR1VJU2NyZWVuOm9p
+cmVmPnNxAH4AAD9AAAAAAAAMdwgAAAAQAAAAAXNyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgAB
+SgAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAFuvsHEAHNyABNqYXZh
+LnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAAKc3IAJWRlLm1ubC5k
+b2Nib29rNFRBLmltcGwuQ2hhbmdlTG9nRW50cnkHjY61+aoknwIAA0wACGhvc3RuYW1ldAASTGph
+dmEvbGFuZy9TdHJpbmc7TAAEbmFtZXEAfgAKTAAEdXNlcnEAfgAKeHB0AA9ERVNLVE9QLUFJRDFG
+S0V0AApDR1VJU2NyZWVudAAEUmV6YXh4dAAfPG9pcmVmOmNwcCNDbGFzcyNDUGxheWVyOm9pcmVm
+PnNxAH4AAD9AAAAAAAAMdwgAAAAQAAAAAnNxAH4ABAAAAW6+wcQAc3EAfgAHAAAAAXcEAAAACnNx
+AH4ACXEAfgAMdAAHQ1BsYXllcnEAfgAOeHNxAH4ABAAAAW6qKFQAc3EAfgAHAAAAAXcEAAAACnNx
+AH4ACXQAD0RFU0tUT1AtQUlEMUZLRXQAB0NQbGF5ZXJ0AARSZXpheHh0ACE8b2lyZWY6Y3BwI0Ns
+YXNzI0NQb3NpdGlvbjpvaXJlZj5zcQB+AAA/QAAAAAAADHcIAAAAEAAAAAJzcQB+AAQAAAFuvsHE
+AHNxAH4ABwAAAAF3BAAAAApzcQB+AAlxAH4ADHQACUNQb3NpdGlvbnEAfgAOeHNxAH4ABAAAAW6q
+KFQAc3EAfgAHAAAAAXcEAAAACnNxAH4ACXEAfgAYdAAJQ1Bvc2l0aW9ucQB+ABp4eHQAJzxvaXJl
+ZjpjcHAjQ2xhc3MjQ1RpY1RhY1RvZUJvYXJkOm9pcmVmPnNxAH4AAD9AAAAAAAAMdwgAAAAQAAAA
+AnNxAH4ABAAAAW6+wcQAc3EAfgAHAAAAAXcEAAAACnNxAH4ACXEAfgAMdAAPQ1RpY1RhY1RvZUJv
+YXJkcQB+AA54c3EAfgAEAAABbqooVABzcQB+AAcAAAABdwQAAAAKc3EAfgAJcQB+ABh0AA9DVGlj
+VGFjVG9lQm9hcmRxAH4AGnh4dAAhPG9pcmVmOmNwcCNDbGFzcyNDQ29tcHV0ZXI6b2lyZWY+c3EA
+fgAAP0AAAAAAAAx3CAAAABAAAAAEc3EAfgAEAAABbpBoiABzcQB+AAcAAAABdwQAAAAKc3EAfgAJ
+dAAPREVTS1RPUC1BSUQxRktFdAAJQ0NvbXB1dGVydAAEUmV6YXhzcQB+AAQAAAFuvsHEAHNxAH4A
+BwAAAAF3BAAAAApzcQB+AAlxAH4ADHQACUNDb21wdXRlcnEAfgAOeHNxAH4ABAAAAW6LQiwAc3EA
+fgAHAAAAAXcEAAAACnNxAH4ACXQAD0RFU0tUT1AtQUlEMUZLRXQACUNDb21wdXRlcnQABFJlemF4
+c3EAfgAEAAABbqooVABzcQB+AAcAAAABdwQAAAAKc3EAfgAJcQB+ABh0AAlDQ29tcHV0ZXJxAH4A
+Gnh4dAAiPG9pcmVmOmNwcCNDbGFzcyNDQ1JUU2NyZWVuOm9pcmVmPnNxAH4AAD9AAAAAAAAMdwgA
+AAAQAAAAAXNxAH4ABAAAAW6+wcQAc3EAfgAHAAAAAXcEAAAACnNxAH4ACXEAfgAMdAAKQ0NSVFNj
+cmVlbnEAfgAOeHh0ACY8b2lyZWY6Y3BwI0NsYXNzI0NUaWNUYWNUb2VHYW1lOm9pcmVmPnNxAH4A
+AD9AAAAAAAAMdwgAAAAQAAAAA3NxAH4ABAAAAW6QaIgAc3EAfgAHAAAAAXcEAAAACnNxAH4ACXEA
+fgA0dAAOQ1RpY1RhY1RvZUdhbWVxAH4ANnhzcQB+AAQAAAFuvsHEAHNxAH4ABwAAAAF3BAAAAApz
+cQB+AAlxAH4ADHQADkNUaWNUYWNUb2VHYW1lcQB+AA54c3EAfgAEAAABbqooVABzcQB+AAcAAAAB
+dwQAAAAKc3EAfgAJcQB+ABh0AA5DVGljVGFjVG9lR2FtZXEAfgAaeHh0AB48b2lyZWY6Y3BwI0Ns
+YXNzI0NIdW1hbjpvaXJlZj5zcQB+AAA/QAAAAAAADHcIAAAAEAAAAANzcQB+AAQAAAFuvsHEAHNx
+AH4ABwAAAAF3BAAAAApzcQB+AAlxAH4ADHQABkNIdW1hbnEAfgAOeHNxAH4ABAAAAW6lAfgAc3EA
+fgAHAAAAAXcEAAAACnNxAH4ACXQAD0RFU0tUT1AtQUlEMUZLRXQABkNIdW1hbnQABFJlemF4c3EA
+fgAEAAABbqooVABzcQB+AAcAAAABdwQAAAAKc3EAfgAJcQB+ABh0AAZDSHVtYW5xAH4AGnh4dAAe
+PG9pcmVmOmNwcCNDbGFzcyNDQm9hcmQ6b2lyZWY+c3EAfgAAP0AAAAAAAAx3CAAAABAAAAAEc3EA
+fgAEAAABbpBoiABzcQB+AAcAAAABdwQAAAAKc3EAfgAJcQB+ADR0AAZDQm9hcmRxAH4ANnhzcQB+
+AAQAAAFuvsHEAHNxAH4ABwAAAAF3BAAAAApzcQB+AAlxAH4ADHQABkNCb2FyZHEAfgAOeHNxAH4A
+BAAAAW6LQiwAc3EAfgAHAAAAAXcEAAAACnNxAH4ACXEAfgA+dAAGQ0JvYXJkcQB+AEB4c3EAfgAE
+AAABbqooVABzcQB+AAcAAAABdwQAAAAKc3EAfgAJcQB+ABh0AAZDQm9hcmRxAH4AGnh4dAAfPG9p
+cmVmOmNwcCNDbGFzcyNDU2NyZWVuOm9pcmVmPnNxAH4AAD9AAAAAAAAMdwgAAAAQAAAAAnNxAH4A
+BAAAAW6+wcQAc3EAfgAHAAAAAXcEAAAACnNxAH4ACXEAfgAMdAAHQ1NjcmVlbnEAfgAOeHNxAH4A
+BAAAAW6qKFQAc3EAfgAHAAAAAXcEAAAACnNxAH4ACXEAfgAYdAAHQ1NjcmVlbnEAfgAaeHh4
+*/
+class __tags {
+}/**
+@__options option.controlbars = true
+option.orientation = Landscape
+option.papersize = A4
+option.fittopage = true
+*/
+class __options {
+}/**
+@__positions 
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeGame:oiref><Autodependency><oiref:cpp#Class#CComputer:oiref>=600,50,1010,50,1010,110:oigroup>
+<oigroup:<oiref:cpp#Class#CCRTScreen:oiref>=90,60,84,85,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_pTicTacToeBoard:oiref>=460,98,460,220:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_pPlayerType:oiref>=828,600,28,16,0:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CPosition:oiref><Autodependency><oiref:cpp#Class#CBoard:oiref>=600,590,500,590:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeBoard#m_Screen:oiref>=370,300,110,300,110,430:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeGame:oiref><Autodependency><oiref:cpp#Class#CHuman:oiref>=600,20,1230,20,1230,110:oigroup>
+<oigroup:<oiref:cpp#Extends#CCRTScreen#CScreen:oiref>=108,145,108,430:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeGame:oiref><Autodependency><oiref:cpp#Class#CCRTScreen:oiref>=340,30,130,30,130,60:oigroup>
+<oigroup:<oiref:cpp#Class#CTicTacToeGame:oiref>=340,-60,260,220,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_TicTacToeBoard:oiref>=445,160,445,220:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CScreen#m_pBoard:oiref>=268,519,28,16,0:oigroup>
+<oigroup:<oiref:design#Class#idbc6nek3ga2x2uk3gjgtvm.diagram:oiref>=1284,662,83,95,1:oigroup>
+<oigroup:<oiref:cpp#Extends#CComputer#CPlayer:oiref>=1020,332,1020,650,936,650:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_pScreen:oiref>=340,120,270,120,270,490,146,490:oigroup>
+<oigroup:<oiref:cpp#Class#CPlayer:oiref>=810,620,126,142,1:oigroup>
+<oigroup:<oiref:cpp#Extends#CGUIScreen#CScreen:oiref>=32,145,32,430:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_pScreen:oiref>=150,470,28,16,0:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#lnkCHuman:oiref>=600,30,1090,30,1210,141:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeBoard#m_pPlayerType:oiref>=551,270,900,270,900,510:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CPlayer:oiref><Autodependency><oiref:cpp#Class#CComputer:oiref>=936,630,970,630,970,332:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CPlayer:oiref><Autodependency><oiref:cpp#Class#CHuman:oiref>=936,680,1250,680,1250,268:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CScreen#m_pBoard:oiref>=146,539,300,539:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#lnkCPlayers:oiref>=540,150,770,150,770,510:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_computer:oiref>=600,143,920,143:oigroup>
+<oigroup:<oiref:cpp#Class#CPosition:oiref>=600,390,168,222,1:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CScreen:oiref><Autodependency><oiref:cpp#Class#CCRTScreen:oiref>=127,430,127,145:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeBoard:oiref><Autodependency><oiref:cpp#Class#CPosition:oiref>=570,370,680,370,680,440:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeBoard#lnkCPlayers:oiref>=490,280,760,280,760,510:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CPlayer:oiref><Autodependency><oiref:cpp#Class#CBoard:oiref>=:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeGame:oiref><Autodependency><oiref:cpp#Class#CPlayer:oiref>=530,98,810,510:oigroup>
+<oigroup:<oiref:cpp#Class#CScreen:oiref>=20,430,126,142,1:oigroup>
+<oigroup:Composite#supplierCardinality#MemberLink#<oiref:cpp#Member#CPlayer#m_pBoard:oiref>=504,655,28,16,0:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeGame:oiref><Autodependency><oiref:cpp#Class#CPosition:oiref>=483,98,701,490:oigroup>
+<oigroup:<oiref:cpp#Class#CGUIScreen:oiref>=-20,60,83,85,1:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeBoard#lnkCScreen:oiref>=370,290,110,290,110,430:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#lnkCPlayer:oiref>=600,150,900,150,920,510:oigroup>
+<oigroup:<oiref:cpp#Class#CHuman:oiref>=1140,110,200,158,1:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CBoard:oiref><Autodependency><oiref:cpp#Class#CPosition:oiref>=500,551,600,551:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_pPlayerType:oiref>=600,150,860,150,860,620:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CPlayer#m_pBoard:oiref>=810,675,500,675:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeGame:oiref><Autodependency><oiref:cpp#Class#CGUIScreen:oiref>=340,-40,20,-40,20,60:oigroup>
+<oigroup:<oiref:cpp#Extends#CHuman#CPlayer:oiref>=1230,268,1230,700,936,700:oigroup>
+<oigroup:<oiref:cpp#Extends#CTicTacToeBoard#CBoard:oiref>=435,458,435,490:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#m_human:oiref>=600,126,1020,126:oigroup>
+<oigroup:MemberLink#<oiref:cpp#Member#CTicTacToeGame#lnkCComputer:oiref>=600,60,970,60,1034,110:oigroup>
+<oigroup:<oiref:cpp#Class#CBoard:oiref>=300,490,200,318,1:oigroup>
+<oigroup:Autodependency<oiref:cpp#Class#CTicTacToeBoard:oiref><Autodependency><oiref:cpp#Class#CPlayer:oiref>=457,394,880,510:oigroup>
+<oigroup:<oiref:cpp#Class#CComputer:oiref>=940,110,174,222,1:oigroup>
+<oigroup:<oiref:cpp#Class#CTicTacToeBoard:oiref>=370,220,200,238,1:oigroup>
+<oigroup:<oiref:design#Class#idaa1lek3n7hhjmk3n8hw6q.diagram:oiref>=441,194,83,95,1:oigroup>
+
+*/
+class __positions {
+}

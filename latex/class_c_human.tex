@@ -1,0 +1,108 @@
+\hypertarget{class_c_human}{}\doxysection{C\+Human Class Reference}
+\label{class_c_human}\index{CHuman@{CHuman}}
+
+
+{\ttfamily \#include $<$C\+Human.\+h$>$}
+
+Inheritance diagram for C\+Human\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_human}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_human_aa806be8417531f5e3074bb8fc20c6a06}{C\+Human}} ()
+\item 
+\mbox{\hyperlink{class_c_human_ab8e26e035de80357bf70ddcad5086a47}{$\sim$\+C\+Human}} ()
+\item 
+bool \mbox{\hyperlink{class_c_human_a8211dbd75823de2f148dcc605800b249}{place\+Stone}} (unsigned short stone)
+\item 
+bool \mbox{\hyperlink{class_c_human_ae44b75c69efc52b7ef2deb3c77bc8eb5}{winner\+Evaluation}} (unsigned short stone)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+unsigned short \mbox{\hyperlink{class_c_human_a94fe764237b281857f0c1673d24f5f91}{m\+\_\+input\+Row\+Position}} = 0
+\item 
+unsigned short \mbox{\hyperlink{class_c_human_af532eebe4d3a500b8f3034444d673bf8}{m\+\_\+input\+Col\+Position}} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class enables user to play the game against human or computer. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_human_aa806be8417531f5e3074bb8fc20c6a06}\label{class_c_human_aa806be8417531f5e3074bb8fc20c6a06}} 
+\index{CHuman@{CHuman}!CHuman@{CHuman}}
+\index{CHuman@{CHuman}!CHuman@{CHuman}}
+\doxysubsubsection{\texorpdfstring{CHuman()}{CHuman()}}
+{\footnotesize\ttfamily C\+Human\+::\+C\+Human (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of human player. \mbox{\Hypertarget{class_c_human_ab8e26e035de80357bf70ddcad5086a47}\label{class_c_human_ab8e26e035de80357bf70ddcad5086a47}} 
+\index{CHuman@{CHuman}!````~CHuman@{$\sim$CHuman}}
+\index{````~CHuman@{$\sim$CHuman}!CHuman@{CHuman}}
+\doxysubsubsection{\texorpdfstring{$\sim$CHuman()}{~CHuman()}}
+{\footnotesize\ttfamily C\+Human\+::$\sim$\+C\+Human (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor of human player. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_human_a8211dbd75823de2f148dcc605800b249}\label{class_c_human_a8211dbd75823de2f148dcc605800b249}} 
+\index{CHuman@{CHuman}!placeStone@{placeStone}}
+\index{placeStone@{placeStone}!CHuman@{CHuman}}
+\doxysubsubsection{\texorpdfstring{placeStone()}{placeStone()}}
+{\footnotesize\ttfamily bool C\+Human\+::place\+Stone (\begin{DoxyParamCaption}\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Method to place a stone on board in each round. 
+\begin{DoxyParams}{Parameters}
+{\em stone} & index of player. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_c_player_ab6d9a3394d2ad73849d616e40d9f54d4}{C\+Player}}.
+
+\mbox{\Hypertarget{class_c_human_ae44b75c69efc52b7ef2deb3c77bc8eb5}\label{class_c_human_ae44b75c69efc52b7ef2deb3c77bc8eb5}} 
+\index{CHuman@{CHuman}!winnerEvaluation@{winnerEvaluation}}
+\index{winnerEvaluation@{winnerEvaluation}!CHuman@{CHuman}}
+\doxysubsubsection{\texorpdfstring{winnerEvaluation()}{winnerEvaluation()}}
+{\footnotesize\ttfamily bool C\+Human\+::winner\+Evaluation (\begin{DoxyParamCaption}\item[{unsigned short}]{stone }\end{DoxyParamCaption})}
+
+Check the board for any winner. 
+\begin{DoxyParams}{Parameters}
+{\em stone} & index of player. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_human_af532eebe4d3a500b8f3034444d673bf8}\label{class_c_human_af532eebe4d3a500b8f3034444d673bf8}} 
+\index{CHuman@{CHuman}!m\_inputColPosition@{m\_inputColPosition}}
+\index{m\_inputColPosition@{m\_inputColPosition}!CHuman@{CHuman}}
+\doxysubsubsection{\texorpdfstring{m\_inputColPosition}{m\_inputColPosition}}
+{\footnotesize\ttfamily unsigned short C\+Human\+::m\+\_\+input\+Col\+Position = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+input\+Col\+Position} & input columns position entered by user. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_human_a94fe764237b281857f0c1673d24f5f91}\label{class_c_human_a94fe764237b281857f0c1673d24f5f91}} 
+\index{CHuman@{CHuman}!m\_inputRowPosition@{m\_inputRowPosition}}
+\index{m\_inputRowPosition@{m\_inputRowPosition}!CHuman@{CHuman}}
+\doxysubsubsection{\texorpdfstring{m\_inputRowPosition}{m\_inputRowPosition}}
+{\footnotesize\ttfamily unsigned short C\+Human\+::m\+\_\+input\+Row\+Position = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+input\+Row\+Position} & input row position entered by user. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_c_human_8h}{C\+Human.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_c_human_8cpp}{C\+Human.\+cpp}}\end{DoxyCompactItemize}

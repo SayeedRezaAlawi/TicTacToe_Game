@@ -1,0 +1,178 @@
+\hypertarget{class_c_position}{}\doxysection{C\+Position Class Reference}
+\label{class_c_position}\index{CPosition@{CPosition}}
+
+
+{\ttfamily \#include $<$C\+Position.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_position_a107aa4ffbf7d3f79c6976db6d1464fd0}{C\+Position}} ()
+\item 
+virtual \mbox{\hyperlink{class_c_position_a680b42368e305bba8714706584ea84f7}{$\sim$\+C\+Position}} ()
+\item 
+unsigned short \mbox{\hyperlink{class_c_position_a31a651ee1be9fce8782ce6f06777b53e}{get\+Row}} (unsigned short row)
+\item 
+unsigned short \mbox{\hyperlink{class_c_position_a05bddba6630c5e740369633a00f97a75}{get\+Column}} (unsigned short col)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_c_position_a3d1bf2d8adacd087916da41190b9797f}{set\+Size}} (unsigned short row, unsigned short cols)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_c_position_a5e60ad7c7f4673589b1b6c928de56f32}{size}}
+\item 
+unsigned short \mbox{\hyperlink{class_c_position_acf37941ef57dcd48b578ff138928a2c3}{m\+\_\+row}}
+\item 
+unsigned short \mbox{\hyperlink{class_c_position_a60ca4c72bf8fd74a5d6fca78ed6ccf63}{m\+\_\+col}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_c_position_a03859edf16671d06254cf933243327fe}{m\+\_\+no\+Rows}} = 0
+\item 
+static int \mbox{\hyperlink{class_c_position_a05ac5670963cff712835a2a7fbc950b3}{m\+\_\+no\+Columns}} = 0
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_c_position_a7938d1eae7fa0406652e6d8d46f63870}{C\+Board}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A \mbox{\hyperlink{class_c_position}{C\+Position}} class describes a specific position on the board game. The \mbox{\hyperlink{class_c_position}{C\+Position}} Object knows the size of the board (number of rows and columns). The size attribute may only be set by the \mbox{\hyperlink{class_c_board}{C\+Board}} class, while the board is being constructed. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_position_a107aa4ffbf7d3f79c6976db6d1464fd0}\label{class_c_position_a107aa4ffbf7d3f79c6976db6d1464fd0}} 
+\index{CPosition@{CPosition}!CPosition@{CPosition}}
+\index{CPosition@{CPosition}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{CPosition()}{CPosition()}}
+{\footnotesize\ttfamily C\+Position\+::\+C\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of Position Class. \mbox{\Hypertarget{class_c_position_a680b42368e305bba8714706584ea84f7}\label{class_c_position_a680b42368e305bba8714706584ea84f7}} 
+\index{CPosition@{CPosition}!````~CPosition@{$\sim$CPosition}}
+\index{````~CPosition@{$\sim$CPosition}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{$\sim$CPosition()}{~CPosition()}}
+{\footnotesize\ttfamily C\+Position\+::$\sim$\+C\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructor of Position Class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_position_a05bddba6630c5e740369633a00f97a75}\label{class_c_position_a05bddba6630c5e740369633a00f97a75}} 
+\index{CPosition@{CPosition}!getColumn@{getColumn}}
+\index{getColumn@{getColumn}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{getColumn()}{getColumn()}}
+{\footnotesize\ttfamily unsigned short C\+Position\+::get\+Column (\begin{DoxyParamCaption}\item[{unsigned short}]{col }\end{DoxyParamCaption})}
+
+Method to get column number. 
+\begin{DoxyParams}{Parameters}
+{\em cols} & is column number. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_position_a31a651ee1be9fce8782ce6f06777b53e}\label{class_c_position_a31a651ee1be9fce8782ce6f06777b53e}} 
+\index{CPosition@{CPosition}!getRow@{getRow}}
+\index{getRow@{getRow}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{getRow()}{getRow()}}
+{\footnotesize\ttfamily unsigned short C\+Position\+::get\+Row (\begin{DoxyParamCaption}\item[{unsigned short}]{row }\end{DoxyParamCaption})}
+
+Method to get row number. 
+\begin{DoxyParams}{Parameters}
+{\em row} & is row number. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_position_a3d1bf2d8adacd087916da41190b9797f}\label{class_c_position_a3d1bf2d8adacd087916da41190b9797f}} 
+\index{CPosition@{CPosition}!setSize@{setSize}}
+\index{setSize@{setSize}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{setSize()}{setSize()}}
+{\footnotesize\ttfamily void C\+Position\+::set\+Size (\begin{DoxyParamCaption}\item[{unsigned short}]{row,  }\item[{unsigned short}]{cols }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Static method to set size of board in \mbox{\hyperlink{class_c_position}{C\+Position}} class. 
+\begin{DoxyParams}{Parameters}
+{\em row} & is row number. \\
+\hline
+{\em cols} & is column number. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_c_position_a7938d1eae7fa0406652e6d8d46f63870}\label{class_c_position_a7938d1eae7fa0406652e6d8d46f63870}} 
+\index{CPosition@{CPosition}!CBoard@{CBoard}}
+\index{CBoard@{CBoard}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{CBoard}{CBoard}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_c_board}{C\+Board}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{class_c_board}{C\+Board}}} & friend class to access methods and attributes of this class. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_position_a60ca4c72bf8fd74a5d6fca78ed6ccf63}\label{class_c_position_a60ca4c72bf8fd74a5d6fca78ed6ccf63}} 
+\index{CPosition@{CPosition}!m\_col@{m\_col}}
+\index{m\_col@{m\_col}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{m\_col}{m\_col}}
+{\footnotesize\ttfamily unsigned short C\+Position\+::m\+\_\+col\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+col} & shows a specific column number. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_position_a05ac5670963cff712835a2a7fbc950b3}\label{class_c_position_a05ac5670963cff712835a2a7fbc950b3}} 
+\index{CPosition@{CPosition}!m\_noColumns@{m\_noColumns}}
+\index{m\_noColumns@{m\_noColumns}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{m\_noColumns}{m\_noColumns}}
+{\footnotesize\ttfamily int C\+Position\+::m\+\_\+no\+Columns = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em static} & attributes m\+\_\+no\+Columns number of columns which not changed after every object creation. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_position_a03859edf16671d06254cf933243327fe}\label{class_c_position_a03859edf16671d06254cf933243327fe}} 
+\index{CPosition@{CPosition}!m\_noRows@{m\_noRows}}
+\index{m\_noRows@{m\_noRows}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{m\_noRows}{m\_noRows}}
+{\footnotesize\ttfamily int C\+Position\+::m\+\_\+no\+Rows = 0\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em static} & attributes m\+\_\+no\+Rows number of rows which not changed after every object creation. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_position_acf37941ef57dcd48b578ff138928a2c3}\label{class_c_position_acf37941ef57dcd48b578ff138928a2c3}} 
+\index{CPosition@{CPosition}!m\_row@{m\_row}}
+\index{m\_row@{m\_row}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{m\_row}{m\_row}}
+{\footnotesize\ttfamily unsigned short C\+Position\+::m\+\_\+row\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+row} & shows a specific row number. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_position_a5e60ad7c7f4673589b1b6c928de56f32}\label{class_c_position_a5e60ad7c7f4673589b1b6c928de56f32}} 
+\index{CPosition@{CPosition}!size@{size}}
+\index{size@{size}!CPosition@{CPosition}}
+\doxysubsubsection{\texorpdfstring{size}{size}}
+{\footnotesize\ttfamily int C\+Position\+::size\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & size of board. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_c_position_8h}{C\+Position.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_c_position_8cpp}{C\+Position.\+cpp}}\item 
+my\+Code/\mbox{\hyperlink{main_8cpp}{main.\+cpp}}\end{DoxyCompactItemize}

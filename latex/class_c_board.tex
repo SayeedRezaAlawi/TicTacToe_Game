@@ -1,0 +1,285 @@
+\hypertarget{class_c_board}{}\doxysection{C\+Board Class Reference}
+\label{class_c_board}\index{CBoard@{CBoard}}
+
+
+{\ttfamily \#include $<$C\+Board.\+h$>$}
+
+Inheritance diagram for C\+Board\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_c_board}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_c_board_aac7a67c6b2b371972093bfe09aaa385f}{C\+Board}} (unsigned short row, unsigned short cols, std\+::string type)
+\item 
+virtual \mbox{\hyperlink{class_c_board_a28ed0237ed02ccd928a78a7f883eb110}{$\sim$\+C\+Board}} ()
+\item 
+virtual void \mbox{\hyperlink{class_c_board_a5fef7ef1e9ef224459679e37ef1c8c76}{set\+Field\+State\+At}} (unsigned short row, unsigned short col, unsigned short stone)
+\item 
+unsigned short \mbox{\hyperlink{class_c_board_a56ddf5facf9f4cb51c5279b08887cd59}{get\+Field\+State\+At}} (unsigned short row, unsigned short col)
+\item 
+virtual unsigned short \mbox{\hyperlink{class_c_board_af335caacf3f7d037add0a685438d6d5a}{count\+Row}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)=0
+\item 
+virtual unsigned short \mbox{\hyperlink{class_c_board_a0965b7de26867da1fffacb3aaaf233e8}{count\+Column}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)=0
+\item 
+virtual unsigned short \mbox{\hyperlink{class_c_board_afed6c9a73ecd2fcb24da3969c2e6dab5}{count\+Diagonal\+Left\+Down}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)=0
+\item 
+virtual unsigned short \mbox{\hyperlink{class_c_board_a9aacc1d76cf16db5b7d4012960f33e17}{count\+Diagonal\+Left\+Up}} (unsigned short no\+Stone, unsigned short no\+Empty, unsigned short stone)=0
+\item 
+virtual unsigned short \mbox{\hyperlink{class_c_board_a9d7aa3ce730006b9a8cdffa82fc80edf}{boardempty}} ()=0
+\item 
+void \mbox{\hyperlink{class_c_board_ac7a5ec87aa9a087ab11f34b2a8deba19}{print}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_c_board_abd78c7ca3b368e4f73d86187e65fc05b}{field\+\_\+s}} \{ \mbox{\hyperlink{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba01bdb143ad1f2a2399f5cd0eeb823098}{Not\+Occupied}} = 0, 
+\mbox{\hyperlink{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba5d5bed455b5e08af2d9b0e304ec51824}{X}} = 1, 
+\mbox{\hyperlink{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba5aca275badf4449b3bb105f1e4938fa2}{O}} = 2
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_c_board_a77ddb5914b7b0be80cd49d7c058ba341}{m\+\_\+\+Type}}
+\item 
+\mbox{\hyperlink{class_c_board_abd78c7ca3b368e4f73d86187e65fc05b}{field\+\_\+s}} $\ast$$\ast$ \mbox{\hyperlink{class_c_board_a011a03ec5a8adf3788f3c9ed26f8594a}{m\+\_\+fields}}
+\item 
+unsigned short \mbox{\hyperlink{class_c_board_a8bb742403fba4413523264a386edd914}{m\+\_\+cols}} = 3
+\item 
+unsigned short \mbox{\hyperlink{class_c_board_a9a6f7a6a545c10ac8de9694f257b0410}{m\+\_\+rows}} = 3
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Creates a Generic Game Board with row and column size and let player to put a new piece on board. It provide number of player or opponent player stone in each row, columns and diagonals. User also have access to each field by get and set methods. 
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_c_board_abd78c7ca3b368e4f73d86187e65fc05b}\label{class_c_board_abd78c7ca3b368e4f73d86187e65fc05b}} 
+\index{CBoard@{CBoard}!field\_s@{field\_s}}
+\index{field\_s@{field\_s}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{field\_s}{field\_s}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_c_board_abd78c7ca3b368e4f73d86187e65fc05b}{C\+Board\+::field\+\_\+s}}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em field\+\_\+s} & define a enumeration type for field state. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{NotOccupied@{NotOccupied}!CBoard@{CBoard}}\index{CBoard@{CBoard}!NotOccupied@{NotOccupied}}}\mbox{\Hypertarget{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba01bdb143ad1f2a2399f5cd0eeb823098}\label{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba01bdb143ad1f2a2399f5cd0eeb823098}} 
+Not\+Occupied&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{X@{X}!CBoard@{CBoard}}\index{CBoard@{CBoard}!X@{X}}}\mbox{\Hypertarget{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba5d5bed455b5e08af2d9b0e304ec51824}\label{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba5d5bed455b5e08af2d9b0e304ec51824}} 
+X&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{O@{O}!CBoard@{CBoard}}\index{CBoard@{CBoard}!O@{O}}}\mbox{\Hypertarget{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba5aca275badf4449b3bb105f1e4938fa2}\label{class_c_board_abd78c7ca3b368e4f73d86187e65fc05ba5aca275badf4449b3bb105f1e4938fa2}} 
+O&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_c_board_aac7a67c6b2b371972093bfe09aaa385f}\label{class_c_board_aac7a67c6b2b371972093bfe09aaa385f}} 
+\index{CBoard@{CBoard}!CBoard@{CBoard}}
+\index{CBoard@{CBoard}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{CBoard()}{CBoard()}}
+{\footnotesize\ttfamily C\+Board\+::\+C\+Board (\begin{DoxyParamCaption}\item[{unsigned short}]{row,  }\item[{unsigned short}]{cols,  }\item[{std\+::string}]{type }\end{DoxyParamCaption})}
+
+Constructor of Board which allocate a 2D memory array to create board and hold each field state. 
+\begin{DoxyParams}{Parameters}
+{\em row} & is number of rows. \\
+\hline
+{\em cols} & is number of columns. \\
+\hline
+{\em type} & is name of game board. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_board_a28ed0237ed02ccd928a78a7f883eb110}\label{class_c_board_a28ed0237ed02ccd928a78a7f883eb110}} 
+\index{CBoard@{CBoard}!````~CBoard@{$\sim$CBoard}}
+\index{````~CBoard@{$\sim$CBoard}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{$\sim$CBoard()}{~CBoard()}}
+{\footnotesize\ttfamily C\+Board\+::$\sim$\+C\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructor of Board which frees allocated memory. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_c_board_a9d7aa3ce730006b9a8cdffa82fc80edf}\label{class_c_board_a9d7aa3ce730006b9a8cdffa82fc80edf}} 
+\index{CBoard@{CBoard}!boardempty@{boardempty}}
+\index{boardempty@{boardempty}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{boardempty()}{boardempty()}}
+{\footnotesize\ttfamily virtual unsigned short C\+Board\+::boardempty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual method\+: checks if board is empty or not, it can also return number of empty fields in return statement. 
+
+Implemented in \mbox{\hyperlink{class_c_tic_tac_toe_board_ae4caece2bfb82f216c65d1eb6f4f9fde}{C\+Tic\+Tac\+Toe\+Board}}.
+
+\mbox{\Hypertarget{class_c_board_a0965b7de26867da1fffacb3aaaf233e8}\label{class_c_board_a0965b7de26867da1fffacb3aaaf233e8}} 
+\index{CBoard@{CBoard}!countColumn@{countColumn}}
+\index{countColumn@{countColumn}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{countColumn()}{countColumn()}}
+{\footnotesize\ttfamily virtual unsigned short C\+Board\+::count\+Column (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual method\+: returns number of player or opponent stone in each column. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_c_tic_tac_toe_board_a6dbc73d522f2a75c448a2f037bea0ff0}{C\+Tic\+Tac\+Toe\+Board}}.
+
+\mbox{\Hypertarget{class_c_board_afed6c9a73ecd2fcb24da3969c2e6dab5}\label{class_c_board_afed6c9a73ecd2fcb24da3969c2e6dab5}} 
+\index{CBoard@{CBoard}!countDiagonalLeftDown@{countDiagonalLeftDown}}
+\index{countDiagonalLeftDown@{countDiagonalLeftDown}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{countDiagonalLeftDown()}{countDiagonalLeftDown()}}
+{\footnotesize\ttfamily virtual unsigned short C\+Board\+::count\+Diagonal\+Left\+Down (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual method\+: returns number of player or opponent stone in left down diagonal. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_c_tic_tac_toe_board_aff2eaaf7964f69078253442cb8de07c9}{C\+Tic\+Tac\+Toe\+Board}}.
+
+\mbox{\Hypertarget{class_c_board_a9aacc1d76cf16db5b7d4012960f33e17}\label{class_c_board_a9aacc1d76cf16db5b7d4012960f33e17}} 
+\index{CBoard@{CBoard}!countDiagonalLeftUp@{countDiagonalLeftUp}}
+\index{countDiagonalLeftUp@{countDiagonalLeftUp}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{countDiagonalLeftUp()}{countDiagonalLeftUp()}}
+{\footnotesize\ttfamily virtual unsigned short C\+Board\+::count\+Diagonal\+Left\+Up (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual method\+: returns number of player or opponent stone in left up diagonal. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_c_tic_tac_toe_board_a3c8d2c54ae654d34eda63a9a17fe89f5}{C\+Tic\+Tac\+Toe\+Board}}.
+
+\mbox{\Hypertarget{class_c_board_af335caacf3f7d037add0a685438d6d5a}\label{class_c_board_af335caacf3f7d037add0a685438d6d5a}} 
+\index{CBoard@{CBoard}!countRow@{countRow}}
+\index{countRow@{countRow}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{countRow()}{countRow()}}
+{\footnotesize\ttfamily virtual unsigned short C\+Board\+::count\+Row (\begin{DoxyParamCaption}\item[{unsigned short}]{no\+Stone,  }\item[{unsigned short}]{no\+Empty,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Virtual method\+: returns number of player or opponent stone in each row. 
+\begin{DoxyParams}{Parameters}
+{\em no\+Stone} & number of stone which player set for condition of return. \\
+\hline
+{\em no\+Empty} & number of empty position which player set for condition of return. \\
+\hline
+{\em stone} & type of stone. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_c_tic_tac_toe_board_a3da5fa184543239d54ae5f77682b0234}{C\+Tic\+Tac\+Toe\+Board}}.
+
+\mbox{\Hypertarget{class_c_board_a56ddf5facf9f4cb51c5279b08887cd59}\label{class_c_board_a56ddf5facf9f4cb51c5279b08887cd59}} 
+\index{CBoard@{CBoard}!getFieldStateAt@{getFieldStateAt}}
+\index{getFieldStateAt@{getFieldStateAt}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{getFieldStateAt()}{getFieldStateAt()}}
+{\footnotesize\ttfamily unsigned short C\+Board\+::get\+Field\+State\+At (\begin{DoxyParamCaption}\item[{unsigned short}]{row,  }\item[{unsigned short}]{col }\end{DoxyParamCaption})}
+
+Virtual method\+: Returns the state of defined field by parameters x and y. 
+\begin{DoxyParams}{Parameters}
+{\em row} & row number of board which player wants to get the state. \\
+\hline
+{\em col} & column number of board which player wants to get the state. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_board_ac7a5ec87aa9a087ab11f34b2a8deba19}\label{class_c_board_ac7a5ec87aa9a087ab11f34b2a8deba19}} 
+\index{CBoard@{CBoard}!print@{print}}
+\index{print@{print}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void C\+Board\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Print the board. \mbox{\Hypertarget{class_c_board_a5fef7ef1e9ef224459679e37ef1c8c76}\label{class_c_board_a5fef7ef1e9ef224459679e37ef1c8c76}} 
+\index{CBoard@{CBoard}!setFieldStateAt@{setFieldStateAt}}
+\index{setFieldStateAt@{setFieldStateAt}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{setFieldStateAt()}{setFieldStateAt()}}
+{\footnotesize\ttfamily void C\+Board\+::set\+Field\+State\+At (\begin{DoxyParamCaption}\item[{unsigned short}]{row,  }\item[{unsigned short}]{col,  }\item[{unsigned short}]{stone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Virtual method\+: Set stone on the board 
+\begin{DoxyParams}{Parameters}
+{\em row} & row number of board which player wants to put new stone. \\
+\hline
+{\em col} & column number of board which player wants to put new stone. \\
+\hline
+{\em stone} & type of stone which player wants to put in defined position on board. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_c_board_a8bb742403fba4413523264a386edd914}\label{class_c_board_a8bb742403fba4413523264a386edd914}} 
+\index{CBoard@{CBoard}!m\_cols@{m\_cols}}
+\index{m\_cols@{m\_cols}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{m\_cols}{m\_cols}}
+{\footnotesize\ttfamily unsigned short C\+Board\+::m\+\_\+cols = 3\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+cols} & is used to store column size of board. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_board_a011a03ec5a8adf3788f3c9ed26f8594a}\label{class_c_board_a011a03ec5a8adf3788f3c9ed26f8594a}} 
+\index{CBoard@{CBoard}!m\_fields@{m\_fields}}
+\index{m\_fields@{m\_fields}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{m\_fields}{m\_fields}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_c_board_abd78c7ca3b368e4f73d86187e65fc05b}{field\+\_\+s}}$\ast$$\ast$ C\+Board\+::m\+\_\+fields\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$$\ast$m\+\_\+fields} & is a 2D dynamic memory and allocated to retain state on each field of board. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_board_a9a6f7a6a545c10ac8de9694f257b0410}\label{class_c_board_a9a6f7a6a545c10ac8de9694f257b0410}} 
+\index{CBoard@{CBoard}!m\_rows@{m\_rows}}
+\index{m\_rows@{m\_rows}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{m\_rows}{m\_rows}}
+{\footnotesize\ttfamily unsigned short C\+Board\+::m\+\_\+rows = 3\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+rows} & is used to store row size of board. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_c_board_a77ddb5914b7b0be80cd49d7c058ba341}\label{class_c_board_a77ddb5914b7b0be80cd49d7c058ba341}} 
+\index{CBoard@{CBoard}!m\_Type@{m\_Type}}
+\index{m\_Type@{m\_Type}!CBoard@{CBoard}}
+\doxysubsubsection{\texorpdfstring{m\_Type}{m\_Type}}
+{\footnotesize\ttfamily std\+::string C\+Board\+::m\+\_\+\+Type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+\begin{DoxyParams}{Parameters}
+{\em m\+\_\+\+Type} & store type of Board name. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+my\+Code/\mbox{\hyperlink{_c_board_8h}{C\+Board.\+h}}\item 
+my\+Code/\mbox{\hyperlink{_c_board_8cpp}{C\+Board.\+cpp}}\end{DoxyCompactItemize}
